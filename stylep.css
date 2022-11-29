@@ -1,0 +1,61 @@
+body, html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(./imagenProyecto.jfif);
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+.titulo{
+    color: cyan;
+    font-size: 20px;
+}
+
+
+.login{
+    height: 350px;
+    padding: 40px;
+    background-color: transparent;
+    text-align: center;
+    color: cyan;
+    border: 2px solid;
+}
+
+::placeholder{
+    color: aliceblue;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login button[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid cyan;
+    width: 200px;
+    outline: none;
+    color: brown;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus,
+.login button[type="submit"] :hover{
+        border-color: blue;
+}
